@@ -1,0 +1,131 @@
+﻿@using HospitalManagement_UI.ViewModels
+@model PatientViewModel
+
+<div style="border: 1px solid blue; padding: 20px; margin:20px 0;">
+    <form asp-action="SaveAndUpdate" asp-controller="Patient" method="post">
+        <input asp-for="PatientID" type="hidden" id="PatientID" />
+        <h4>Patient Information</h4>
+        <div class="row form-group mb-2">
+            <label class="col-form-label col-md-2">Patient Name <span style="color:red;">*</span></label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" placeholder="Enter Patient Name" required="" asp-for="PatientName" id="PatientName" />
+            </div>
+        </div>
+        <div class="row form-group mb-2">
+            <label class="col-form-label col-md-2">Disease <span style="color:red;">*</span></label>
+            <div class="col-md-10">
+                <select class="form-control form-select" asp-for="DiseaseId" id="DiseaseName" required>
+                    <option selected value=""></option>
+                    @foreach (var d in ViewBag.DiseaseList)
+                    {
+                        <option value="@d.DiseaseID">@d.DiseaseName</option>
+                    }
+                </select>
+            </div>
+        </div>
+       @* <div class="row form-group mb-2">
+            <label class="col-form-label col-md-2">Epilepsy <span style="color:red;">*</span></label>
+            <div class="col-md-10">
+                <select class="form-control form-select" asp-for="EpilepsyList">
+                    @foreach (var d in ViewBag.EList)
+                    {
+                        <option value="@d">@d</option>
+                    }
+                </select>
+            </div>
+        </div>*@
+        <div class="row form-group mb-2">
+            <label class="col-form-label col-md-2">Epilepsy <span style="color:red;">*</span></label>
+            <div class="col-md-10">
+                <select id="EpilepsiValue" class="form-control form-select" asp-for="EpilepsyList" asp-items="Html.GetEnumSelectList<Epilepsy>().OrderByDescending(x=>x.Value)"></select>
+            </div>
+        </div>
+        <div class="row form-group mb-2">
+            <div class="col-md-2">Other NCDs</div>
+            <div class="col-md-4">
+                <div>
+                    <select size="12" class="form-control" id="NCDDetailsList">
+                        @foreach (var d in ViewBag.NCDList)
+                        {
+                            <option value="@d.NCDID">@d.NCDName</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-2 btn" style="margin-top: 100px;">
+                <button type="button" class="mb-2 btn btn-outline-dark" style="width:100px;" id="NCDAdd"> Add > </button>
+                <button type="button" class=" btn btn-outline-dark" style="width:100px;" id="NCDRemove"> < Remove </button>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <select size="12" class="form-control" id="SelectedNCDDetail">
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row form-group ">
+            <div class="col-md-2">Allergies <span style="color:red;">*</span></div>
+            <div class="col-md-4">
+                <div>
+                    <select size="12" class="form-control" id="AllergiesDetailsList">
+                        @foreach (var d in ViewBag.AllergiesList)
+                        {
+                            <option value="@d.AllergiesID">@d.AllergiesName</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-2 btn" style="margin-top: 100px;">
+                <button type="button" class="mb-2 btn btn-outline-dark" style="width:100px;" id="AllergiAdd"> Add > </button>
+                <button type="button" class=" btn btn-outline-dark" style="width:100px;" id="AllergiRemove"> < Remove </button>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <select size="12" class="form-control" id="SelectedAllergiesDetail" required>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row offset-6">
+            <button id="SaveData" class="align-content-center btn" style="width:100px; margin:30px 0 30px 60px; color:white; background-color:deepskyblue; font-size:1.5rem; font-weight:900;" type="button">Save</button>
+        </div>
+    </form>
+</div>
+
+<script src="~/lib/jquery/jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        var selectedNCDArray = [];
+
+        // Add option from selectList1 to selectList2
+        $("#NCDAdd").on("click", function () {
+            $("#NCDDetailsList option:selected").appendTo("#SelectedNCDDetail");
+        });
+
+        // Remove option from selectList2 and move it back to selectList1
+        $("#NCDRemove").on("click", function () {
+            $("#SelectedNCDDetail option:selected").appendTo("#NCDDetailsList"); 
+
+            $("#SelectedNCDDetail option:selected").each(function () {
+                // Push the value to the array
+                selectedNCDArray.push($(this).text());
+            });
+            console.log($("#SelectedNCDDetail option:selected").text());
+        });
+
+
+
+
+
+        // Add option from selectList1 to selectList2
+        $("#AllergiAdd").on("click", function () {
+            $("#AllergiesDetailsList option:selected").appendTo("#SelectedAllergiesDetail");
+        });
+
+        // Remove option from selectList2 and move it back to selectList1
+        $("#AllergiRemove").on("click", function () {
+            $("#SelectedAllergiesDetail option:selected").appendTo("#AllergiesDetailsList");
+        });
+    });
+</script>

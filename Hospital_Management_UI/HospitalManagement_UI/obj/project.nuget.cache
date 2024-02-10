@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ixw4ChX5pGlcJcg5DfzEJtRvbiCS6GhSeIbvFuAkQrTnjs1BeVTm+JLkYCoCs69pRF1ahvnwrHtOT5AcaUJHvw==",
+  "dgSpecHash": "TI+Al4JN0ovEndZOtOgawTRX4FUzZYFYf9D0KIOp6aZAGTBDdoouqfkM2lpUx3JR9oQD/e4eE3zX+Fkwdtc37g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\Download Files\\Hospital_Management_UI\\HospitalManagement_UI\\HospitalManagement_UI.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\Download Files\\HospitalManager\\hospitalManagementProject\\Hospital_Management_UI\\HospitalManagement_UI\\HospitalManagement_UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.26\\microsoft.aspnetcore.mvc.razor.extensions.6.0.26.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\6.0.26\\microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.26.nupkg.sha512",

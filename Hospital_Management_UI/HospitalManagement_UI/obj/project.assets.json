@@ -987,11 +987,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Download Files\\Hospital_Management_UI\\HospitalManagement_UI\\HospitalManagement_UI.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Download Files\\HospitalManager\\hospitalManagementProject\\Hospital_Management_UI\\HospitalManagement_UI\\HospitalManagement_UI.csproj",
       "projectName": "HospitalManagement_UI",
-      "projectPath": "C:\\Users\\USER\\Desktop\\Download Files\\Hospital_Management_UI\\HospitalManagement_UI\\HospitalManagement_UI.csproj",
+      "projectPath": "C:\\Users\\USER\\Desktop\\Download Files\\HospitalManager\\hospitalManagementProject\\Hospital_Management_UI\\HospitalManagement_UI\\HospitalManagement_UI.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\Download Files\\Hospital_Management_UI\\HospitalManagement_UI\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\Download Files\\HospitalManager\\hospitalManagementProject\\Hospital_Management_UI\\HospitalManagement_UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

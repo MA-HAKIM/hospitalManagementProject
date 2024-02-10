@@ -1,37 +1,35 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using Newtonsoft.Json;
 
 namespace HospitalManagement_UI.ViewModels
 {
-    public enum Epilepsy
-    {
-        No = 0,
-        Yes = 1
-    }
     public class PatientViewModel:BaseModel
     {
-        public int PatientID { get; set; }
+        public int PatientInformationID { get; set; }
         public string PatientName { get; set; }
-        public Epilepsy EpilepsyList { get; set; }
+        public int Epilepsy { get; set; }
         public int Age { get; set; }
         public string? Address { get; set; }
         public string? ContactNo { get; set; }
         public int DiseaseId { get; set; }
-        public PatientViewModel Patient { get; set; }
-        public IList<PatientViewModel> PatientList { get; set; }
+        public PatientDetailsModel Patient { get; set; }
+        public IList<PatientDetailsModel> PatientList { get; set; }
+        public DiseaseViewModel DiseaseInformation { get; set; } // Navigation property
+        public List<NCDDetailsViewModel> NCD_Details { get; set; } // Navigation property
+        public List<AllergiesDetailsViewModel> Allergies_Details { get; set; } // Navigation property
 
-
-        public IList<PatientViewModel> GetPatientsList()
+        public IList<PatientDetailsModel> GetPatientsList()
         {
-            PatientList = new List<PatientViewModel>();
+            PatientList = new List<PatientDetailsModel>();
             try
             {
                 HttpResponseMessage response = GetResponse(Api_Address, ApiController_PatientsInfo);
 
                 if (response.IsSuccessStatusCode)
                 {
-                    var dataObjects = response.Content.ReadFromJsonAsync<IEnumerable<PatientViewModel>>().Result;
-                    PatientList = (IList<PatientViewModel>)dataObjects.ToList();
+                    var data = response.Content.ReadAsStringAsync().Result;
+                    PatientList = JsonConvert.DeserializeObject<List<PatientDetailsModel>>(data);
                 }
 
                 response.EnsureSuccessStatusCode();
@@ -43,26 +41,18 @@ namespace HospitalManagement_UI.ViewModels
                 throw;
             }
         }
-        public PatientViewModel GetSinglePatient(int patient_id)
+        public PatientDetailsModel GetSinglePatient(int patient_id)
         {
-            Patient = new PatientViewModel();
-            //var customerAddress = new CustomerAddressVM();
-            //CustomerAddresses = new List<CustomerAddressVM>();
+            Patient = new PatientDetailsModel();
             try
             {
                 HttpResponseMessage response = GetResponse(Api_Address, ApiController_PatientsInfo + "/" + patient_id.ToString());
 
                 if (response.IsSuccessStatusCode)
                 {
-
-                    var dataObjects = response.Content.ReadFromJsonAsync<PatientViewModel>().Result;
+                    var data = response.Content.ReadAsStringAsync().Result;
+                    var dataObjects = JsonConvert.DeserializeObject<PatientDetailsModel>(data);
                     Patient = dataObjects;
-                    //var addressListlist = customerAddress.GetCustomerAddressList().Where(x => x.CustomerId == Patient.CustomerId).ToList();
-                    //foreach (var address in addressListlist)
-                    //{
-                        //CustomerAddresses.Add(address);
-
-                    //}
                 }
                 //Patient.CustomerAddresses = CustomerAddresses;
                 response.EnsureSuccessStatusCode();
@@ -74,80 +64,54 @@ namespace HospitalManagement_UI.ViewModels
                 throw;
             }
         }
-        public void AddSinglePatient(string patient)
+        public async Task<int> AddSinglePatient(PatientViewModel patient)
         {
-            PatientViewModel obj = new PatientViewModel();
-            //CustomerAddressVM customerAddress = new CustomerAddressVM();
-            Random randId = new Random();
-            //List<PatientViewModel> data = new JavaScriptSerializer().Deserialize<List<PatientViewModel>>(patient);
-
             try
             {
-                //foreach (var cust in data)
-                //{
-                    //obj.CustomerName = cust.CustomerName;
-                    //obj.CountryId = cust.CountryId;
-                    //obj.CustomerId = randId.Next(1000, 99999);
-                    //obj.FatherName = cust.FatherName;
-                    //obj.MotherName = cust.MotherName;
-                    //obj.MaritalStatus = cust.MaritalStatus;
-                    //obj.CustomerPhoto = cust.CustomerPhoto;
-                    Task<HttpResponseMessage> response1 = PostResponse(Api_Address, ApiController_PatientsInfo, obj);
-
-                    //foreach (var address in cust.Addresses)
-                    //{
-                        //customerAddress.CustomerAddress = address;
-                        //customerAddress.CustomerId = obj.CustomerId;
-                        //Task<HttpResponseMessage> response = PostResponse(Api_Address, ApiController_CustomerAddress, customerAddress);
-                    //}
-                //}
-
+                if(patient != null)
+                {
+                    HttpResponseMessage response = await PostResponse(Api_Address, ApiController_PatientsInfo, patient);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string responseBody = await response.Content.ReadAsStringAsync();
+                        PatientViewModel responseModel = JsonConvert.DeserializeObject<PatientViewModel>(responseBody);
+                        int id = responseModel.PatientInformationID;
+                        return id;
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Error: {response.StatusCode}");
+                    }
+                }
+                return 0;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                // Handle any exceptions that may occur during the request
+                Console.WriteLine($"Exception: {ex.Message}");
                 throw;
             }
         }
-        public void EditSinglePatient(string patient)
+        public async Task<int> EditSinglePatient(PatientViewModel patient)
         {
-            PatientViewModel obj = new PatientViewModel();
-            //CustomerAddressVM customerAddress = new CustomerAddressVM();
-            Random randId = new Random();
-            //List<PatientViewModel> data = new JavaScriptSerializer().Deserialize<List<PatientViewModel>>(patient);
-
             try
             {
-                //foreach (var cust in data)
-                //{
-                //    obj.Id = cust.Id;
-                //    obj.CustomerName = cust.CustomerName;
-                //    obj.CountryId = cust.CountryId;
-                //    obj.CustomerId = cust.CustomerId;
-                //    obj.FatherName = cust.FatherName;
-                //    obj.MotherName = cust.MotherName;
-                //    obj.MaritalStatus = cust.MaritalStatus;
-                //    obj.CustomerPhoto = cust.CustomerPhoto;
-
-                //    Task<HttpResponseMessage> response1 = PutResponse(Api_Address, ApiController_PatientsInfo, cust.Id.ToString(), obj);
-
-                //    var customerAddressList = customerAddress.GetCustomerAddressList()
-                //        .Where(x => x.CustomerId == cust.CustomerId).ToList();
-
-                //    foreach (var d in customerAddressList)
-                //    {
-                //        customerAddress.DeleteSingleCustomerAddress(d.Id);
-                //    }
-
-                //    foreach (var address in cust.Addresses)
-                //    {
-
-                //        customerAddress.CustomerAddress = address;
-                //        customerAddress.CustomerId = obj.CustomerId;
-                //        Task<HttpResponseMessage> response = PutResponse(Api_Address, ApiController_CustomerAddress, cust.Id.ToString(), customerAddress);
-                //        Thread.Sleep(5);
-                //    }
-
-                //}
+                if (patient != null)
+                {
+                    HttpResponseMessage response = await PutResponse(Api_Address, ApiController_PatientsInfo, patient.PatientInformationID.ToString(), patient);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string responseBody = await response.Content.ReadAsStringAsync();
+                        PatientViewModel responseModel = JsonConvert.DeserializeObject<PatientViewModel>(responseBody);
+                        int id = responseModel.PatientInformationID;
+                        return id;
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Error: {response.StatusCode}");
+                    }
+                }
+                return 0;
 
             }
             catch (Exception)
@@ -157,22 +121,9 @@ namespace HospitalManagement_UI.ViewModels
         }
         public void DeleteSinglePatient(int id)
         {
-            //var address = new CustomerAddressVM();
             try
             {
-                //var custId = GetCustomerList().Where(x => x.CustomerId == id).FirstOrDefault();
-                //HttpResponseMessage response = DeleteResponse(Api_Address, ApiController_PatientsInfo, custId.Id.ToString());
-
-                //foreach (var custAddress in address.GetCustomerAddressList().Where(x => x.CustomerId == id).ToList())
-                //{
-                //    HttpResponseMessage response2 = DeleteResponse(Api_Address, ApiController_CustomerAddress, custAddress.Id.ToString());
-                //}
-
-                //if (response.IsSuccessStatusCode)
-                //{
-
-                //}
-                //response.EnsureSuccessStatusCode();
+                HttpResponseMessage response2 = DeleteResponse(Api_Address, ApiController_PatientsInfo, id.ToString());
             }
             catch (Exception)
             {

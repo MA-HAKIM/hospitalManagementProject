@@ -8,57 +8,73 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HospitalManagement_UI
 build_property.RootNamespace = HospitalManagement_UI
-build_property.ProjectDir = C:\Users\USER\Desktop\Download Files\Hospital_Management_UI\HospitalManagement_UI\
+build_property.ProjectDir = C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\USER\Desktop\Download Files\Hospital_Management_UI\HospitalManagement_UI
+build_property.MSBuildProjectDirectory = C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/USER/Desktop/Download Files/Hospital_Management_UI/HospitalManagement_UI/Pages/Error.cshtml]
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Download Files/Hospital_Management_UI/HospitalManagement_UI/Pages/Index.cshtml]
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Download Files/Hospital_Management_UI/HospitalManagement_UI/Pages/Privacy.cshtml]
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Download Files/Hospital_Management_UI/HospitalManagement_UI/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Download Files/Hospital_Management_UI/HospitalManagement_UI/Pages/_ViewImports.cshtml]
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Download Files/Hospital_Management_UI/HospitalManagement_UI/Pages/_ViewStart.cshtml]
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Download Files/Hospital_Management_UI/HospitalManagement_UI/Views/Home/Index.cshtml]
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Download Files/Hospital_Management_UI/HospitalManagement_UI/Views/Patient/PatientInfo.cshtml]
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Views/Patient/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Views/Patient/PatientEditForView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQYXRpZW50RWRpdEZvclZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Views/Patient/PatientInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQYXRpZW50SW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Download Files/Hospital_Management_UI/HospitalManagement_UI/Views/Shared/_Layout.cshtml]
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Views/Patient/PatientInfoView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQYXRpZW50SW5mb1ZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Views/Patient/PatientList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQYXRpZW50TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Download Files/Hospital_Management_UI/HospitalManagement_UI/Views/_ViewImports.cshtml]
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Download Files/Hospital_Management_UI/HospitalManagement_UI/Views/_ViewStart.cshtml]
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Download Files/Hospital_Management_UI/HospitalManagement_UI/Pages/Shared/_Layout.cshtml]
+[C:/Users/USER/Desktop/Download Files/HospitalManager/hospitalManagementProject/Hospital_Management_UI/HospitalManagement_UI/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0xnakob6tz

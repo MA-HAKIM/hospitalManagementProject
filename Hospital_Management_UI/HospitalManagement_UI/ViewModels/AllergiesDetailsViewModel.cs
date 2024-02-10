@@ -1,16 +1,19 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Diagnostics.CodeAnalysis;
+using System.Runtime.InteropServices;
 
 namespace HospitalManagement_UI.ViewModels
 {
     public class AllergiesDetailsViewModel:BaseModel
     {
         public int ID { get; set; }
-        public int PatientID { get; set; }
+        public int PatientInformationID { get; set; }
         public int AllergiesID { get; set; }
         public AllergiesDetailsViewModel AllergiesDetail { get; set; }
         public IList<AllergiesDetailsViewModel> AllergiesDetailList { get; set; }
 
+        public PatientViewModel PatientInformation { get; set; } // Navigation property
 
         public IList<AllergiesDetailsViewModel> GetAllergiesDetailList()
         {
@@ -34,6 +37,30 @@ namespace HospitalManagement_UI.ViewModels
                 throw;
             }
         }
+
+        public IList<AllergiesDetailsViewModel> GetAllergiesDetailListByPatientId(int id)
+        {
+            AllergiesDetailList = new List<AllergiesDetailsViewModel>();
+            try
+            {
+                HttpResponseMessage response = GetResponse(Api_Address, ApiController_AllergiesDetails + "/GetAllergies_DetailsByPatientId/" + id.ToString());
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var dataObjects = response.Content.ReadAsStringAsync().Result;
+                    AllergiesDetailList = JsonConvert.DeserializeObject<List<AllergiesDetailsViewModel>>(dataObjects);
+                }
+
+                response.EnsureSuccessStatusCode();
+                return AllergiesDetailList;
+            }
+            catch (Exception)
+            {
+                return AllergiesDetailList;
+                throw;
+            }
+        }
+
         public AllergiesDetailsViewModel GetSingleAllergiesDetail(int Allergies_detail_id)
         {
             AllergiesDetail = new AllergiesDetailsViewModel();
@@ -65,80 +92,55 @@ namespace HospitalManagement_UI.ViewModels
                 throw;
             }
         }
-        public void AddSingleAllergiesDetail(string Allergies_detail)
+        public async Task<int> AddSingleAllergiesDetail(AllergiesDetailsViewModel Allergies_detail)
         {
-            AllergiesDetailsViewModel obj = new AllergiesDetailsViewModel();
-            //CustomerAddressVM customerAddress = new CustomerAddressVM();
-            Random randId = new Random();
-            //List<AllergiesDetailsViewModel> data = new JavaScriptSerializer().Deserialize<List<AllergiesDetailsViewModel>>(Allergies_detail);
-
             try
             {
-                //foreach (var cust in data)
-                //{
-                //obj.CustomerName = cust.CustomerName;
-                //obj.CountryId = cust.CountryId;
-                //obj.CustomerId = randId.Next(1000, 99999);
-                //obj.FatherName = cust.FatherName;
-                //obj.MotherName = cust.MotherName;
-                //obj.MaritalStatus = cust.MaritalStatus;
-                //obj.CustomerPhoto = cust.CustomerPhoto;
-                Task<HttpResponseMessage> response1 = PostResponse(Api_Address, ApiController_AllergiesDetails, obj);
-
-                //foreach (var address in cust.Addresses)
-                //{
-                //customerAddress.CustomerAddress = address;
-                //customerAddress.CustomerId = obj.CustomerId;
-                //Task<HttpResponseMessage> response = PostResponse(Api_Address, ApiController_CustomerAddress, customerAddress);
-                //}
-                //}
-
+                
+                if (Allergies_detail != null)
+                {
+                    HttpResponseMessage response = await PostResponse(Api_Address, ApiController_AllergiesDetails, Allergies_detail);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string responseBody = await response.Content.ReadAsStringAsync();
+                        AllergiesDetailsViewModel responseModel = JsonConvert.DeserializeObject<AllergiesDetailsViewModel>(responseBody);
+                        int id = responseModel.ID;
+                        return id;
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Error: {response.StatusCode}");
+                    }
+                }
+                return 0;
+                
+                
             }
             catch (Exception)
             {
                 throw;
             }
         }
-        public void EditSingleAllergiesDetail(string Allergies_detail)
+        public async Task<int> EditSingleAllergiesDetail(AllergiesDetailsViewModel allergies_detail)
         {
-            AllergiesDetailsViewModel obj = new AllergiesDetailsViewModel();
-            //CustomerAddressVM customerAddress = new CustomerAddressVM();
-            Random randId = new Random();
-            //List<AllergiesDetailsViewModel> data = new JavaScriptSerializer().Deserialize<List<AllergiesDetailsViewModel>>(Allergies_detail);
-
             try
             {
-                //foreach (var cust in data)
-                //{
-                //    obj.Id = cust.Id;
-                //    obj.CustomerName = cust.CustomerName;
-                //    obj.CountryId = cust.CountryId;
-                //    obj.CustomerId = cust.CustomerId;
-                //    obj.FatherName = cust.FatherName;
-                //    obj.MotherName = cust.MotherName;
-                //    obj.MaritalStatus = cust.MaritalStatus;
-                //    obj.CustomerPhoto = cust.CustomerPhoto;
-
-                //    Task<HttpResponseMessage> response1 = PutResponse(Api_Address, ApiController_AllergiesDetails, cust.Id.ToString(), obj);
-
-                //    var customerAddressList = customerAddress.GetCustomerAddressList()
-                //        .Where(x => x.CustomerId == cust.CustomerId).ToList();
-
-                //    foreach (var d in customerAddressList)
-                //    {
-                //        customerAddress.DeleteSingleCustomerAddress(d.Id);
-                //    }
-
-                //    foreach (var address in cust.Addresses)
-                //    {
-
-                //        customerAddress.CustomerAddress = address;
-                //        customerAddress.CustomerId = obj.CustomerId;
-                //        Task<HttpResponseMessage> response = PutResponse(Api_Address, ApiController_CustomerAddress, cust.Id.ToString(), customerAddress);
-                //        Thread.Sleep(5);
-                //    }
-
-                //}
+                if (allergies_detail != null)
+                {
+                    HttpResponseMessage response = await PutResponse(Api_Address, ApiController_AllergiesDetails, allergies_detail.ID.ToString(), allergies_detail);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string responseBody = await response.Content.ReadAsStringAsync();
+                        AllergiesDetailsViewModel responseModel = JsonConvert.DeserializeObject<AllergiesDetailsViewModel>(responseBody);
+                        int id = responseModel.ID;
+                        return id;
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Error: {response.StatusCode}");
+                    }
+                }
+                return 0;
 
             }
             catch (Exception)
@@ -148,22 +150,9 @@ namespace HospitalManagement_UI.ViewModels
         }
         public void DeleteSingleAllergiesDetail(int id)
         {
-            //var address = new CustomerAddressVM();
             try
             {
-                //var custId = GetCustomerList().Where(x => x.CustomerId == id).FirstOrDefault();
-                //HttpResponseMessage response = DeleteResponse(Api_Address, ApiController_AllergiesDetails, custId.Id.ToString());
-
-                //foreach (var custAddress in address.GetCustomerAddressList().Where(x => x.CustomerId == id).ToList())
-                //{
-                //    HttpResponseMessage response2 = DeleteResponse(Api_Address, ApiController_CustomerAddress, custAddress.Id.ToString());
-                //}
-
-                //if (response.IsSuccessStatusCode)
-                //{
-
-                //}
-                //response.EnsureSuccessStatusCode();
+                HttpResponseMessage response = DeleteResponse(Api_Address, ApiController_AllergiesDetails, id.ToString());
             }
             catch (Exception)
             {

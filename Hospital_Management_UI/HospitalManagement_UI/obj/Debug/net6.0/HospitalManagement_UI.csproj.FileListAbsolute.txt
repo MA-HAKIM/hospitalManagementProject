@@ -349,3 +349,710 @@ C:\Users\USER\Desktop\Download Files\Hospital_Management_UI\HospitalManagement_U
 C:\Users\USER\Desktop\Download Files\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.genruntimeconfig.cache
 C:\Users\USER\Desktop\Download Files\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\ref\HospitalManagement_UI.dll
 C:\Users\USER\Desktop\Download Files\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\libman.json
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\appsettings.Development.json
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\appsettings.json
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\libman.json
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\HospitalManagement_UI.staticwebassets.runtime.json
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\HospitalManagement_UI.exe
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\HospitalManagement_UI.deps.json
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\HospitalManagement_UI.runtimeconfig.json
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\HospitalManagement_UI.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\HospitalManagement_UI.pdb
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Antiforgery.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authorization.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Authorization.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Forms.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Server.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Web.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cors.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Diagnostics.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HostFiltering.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Hosting.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Connections.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Features.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Results.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HttpLogging.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Identity.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Localization.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Metadata.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Razor.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.ResponseCaching.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.ResponseCompression.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Rewrite.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Routing.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.IIS.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Session.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.Common.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.Core.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.StaticFiles.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.WebSockets.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.WebUtilities.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.CSharp.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Caching.Memory.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Binder.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Ini.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Json.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Xml.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.DependencyInjection.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Features.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Http.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Core.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Stores.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Configuration.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Console.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Debug.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.EventLog.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.EventSource.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.ObjectPool.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Primitives.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.WebEncoders.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.JSInterop.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Net.Http.Headers.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.VisualBasic.Core.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.VisualBasic.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Win32.Primitives.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Win32.Registry.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\mscorlib.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\netstandard.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.AppContext.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Buffers.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Collections.Concurrent.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Collections.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Collections.Immutable.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Collections.NonGeneric.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Collections.Specialized.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ComponentModel.Annotations.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ComponentModel.DataAnnotations.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ComponentModel.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ComponentModel.EventBasedAsync.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ComponentModel.Primitives.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ComponentModel.TypeConverter.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Configuration.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Console.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Core.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Data.Common.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Data.DataSetExtensions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Data.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.Contracts.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.Debug.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.DiagnosticSource.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.EventLog.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.FileVersionInfo.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.Process.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.StackTrace.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.TextWriterTraceListener.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.Tools.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.TraceSource.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.Tracing.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Drawing.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Drawing.Primitives.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Dynamic.Runtime.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Formats.Asn1.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Globalization.Calendars.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Globalization.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Globalization.Extensions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.Compression.Brotli.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.Compression.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.Compression.FileSystem.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.Compression.ZipFile.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.FileSystem.AccessControl.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.FileSystem.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.FileSystem.DriveInfo.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.FileSystem.Primitives.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.FileSystem.Watcher.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.IsolatedStorage.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.MemoryMappedFiles.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.Pipelines.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.Pipes.AccessControl.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.Pipes.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.UnmanagedMemoryStream.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Linq.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Linq.Expressions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Linq.Parallel.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Linq.Queryable.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Memory.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Http.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Http.Json.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.HttpListener.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Mail.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.NameResolution.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.NetworkInformation.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Ping.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Primitives.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Requests.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Security.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.ServicePoint.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Sockets.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.WebClient.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.WebHeaderCollection.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.WebProxy.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.WebSockets.Client.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.WebSockets.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Numerics.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Numerics.Vectors.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ObjectModel.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.DispatchProxy.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.Emit.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.Emit.ILGeneration.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.Emit.Lightweight.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.Extensions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.Metadata.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.Primitives.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.TypeExtensions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Resources.Reader.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Resources.ResourceManager.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Resources.Writer.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.CompilerServices.Unsafe.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.CompilerServices.VisualC.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Extensions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Handles.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.InteropServices.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Intrinsics.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Loader.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Numerics.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Serialization.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Serialization.Formatters.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Serialization.Json.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Serialization.Primitives.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Serialization.Xml.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.AccessControl.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Claims.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.Algorithms.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.Cng.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.Csp.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.Encoding.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.OpenSsl.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.Primitives.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.X509Certificates.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.Xml.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Principal.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Principal.Windows.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.SecureString.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ServiceModel.Web.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ServiceProcess.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Text.Encoding.CodePages.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Text.Encoding.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Text.Encoding.Extensions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Text.Encodings.Web.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Text.Json.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Text.RegularExpressions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Channels.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Overlapped.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Tasks.Dataflow.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Tasks.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Tasks.Extensions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Tasks.Parallel.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Thread.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.ThreadPool.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Timer.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Transactions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Transactions.Local.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ValueTuple.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Web.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Web.HttpUtility.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Windows.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.Linq.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.ReaderWriter.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.Serialization.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.XDocument.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.XmlDocument.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.XmlSerializer.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.XPath.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.XPath.XDocument.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\WindowsBase.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Newtonsoft.Json.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.csproj.AssemblyReference.cache
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.GeneratedMSBuildEditorConfig.editorconfig
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.AssemblyInfoInputs.cache
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.AssemblyInfo.cs
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.csproj.CoreCompileInputs.cache
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.MvcApplicationPartsAssemblyInfo.cs
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.MvcApplicationPartsAssemblyInfo.cache
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.RazorAssemblyInfo.cache
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.RazorAssemblyInfo.cs
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\staticwebassets\msbuild.HospitalManagement_UI.Microsoft.AspNetCore.StaticWebAssets.props
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\staticwebassets\msbuild.build.HospitalManagement_UI.props
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.HospitalManagement_UI.props
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.HospitalManagement_UI.props
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\staticwebassets.pack.json
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\staticwebassets.build.json
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\staticwebassets.development.json
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\scopedcss\bundle\HospitalManagement_UI.styles.css
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\scopedcss\projectbundle\HospitalManagement_UI.bundle.scp.css
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.csproj.CopyComplete
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\refint\HospitalManagement_UI.dll
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.pdb
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.genruntimeconfig.cache
+H:\REYAD-1260660\HAKIM\hospitalManagementProject-main\hospitalManagementProject-main\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\ref\HospitalManagement_UI.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\appsettings.json
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\libman.json
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\HospitalManagement_UI.staticwebassets.runtime.json
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\HospitalManagement_UI.exe
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\HospitalManagement_UI.deps.json
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\HospitalManagement_UI.runtimeconfig.json
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\HospitalManagement_UI.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\HospitalManagement_UI.pdb
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authorization.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Server.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cors.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Hosting.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Connections.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Results.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HttpLogging.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Identity.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Localization.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Metadata.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Razor.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.ResponseCaching.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Rewrite.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Routing.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.IIS.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Session.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.Core.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.CSharp.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Ini.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Xml.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Features.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Http.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Core.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Console.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.ObjectPool.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.Primitives.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Extensions.WebEncoders.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.JSInterop.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Net.Http.Headers.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.VisualBasic.Core.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.VisualBasic.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Win32.Primitives.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\Microsoft.Win32.Registry.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\mscorlib.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\netstandard.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.AppContext.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Buffers.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Collections.Concurrent.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Collections.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Collections.Immutable.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Collections.NonGeneric.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Collections.Specialized.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ComponentModel.Annotations.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ComponentModel.DataAnnotations.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ComponentModel.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ComponentModel.EventBasedAsync.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ComponentModel.Primitives.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ComponentModel.TypeConverter.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Configuration.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Console.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Core.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Data.Common.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Data.DataSetExtensions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Data.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.Contracts.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.Debug.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.DiagnosticSource.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.EventLog.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.FileVersionInfo.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.Process.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.StackTrace.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.Tools.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.TraceSource.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Diagnostics.Tracing.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Drawing.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Drawing.Primitives.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Dynamic.Runtime.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Formats.Asn1.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Globalization.Calendars.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Globalization.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Globalization.Extensions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.Compression.Brotli.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.Compression.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.Compression.FileSystem.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.Compression.ZipFile.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.FileSystem.AccessControl.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.FileSystem.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.FileSystem.DriveInfo.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.FileSystem.Primitives.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.FileSystem.Watcher.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.IsolatedStorage.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.MemoryMappedFiles.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.Pipelines.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.Pipes.AccessControl.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.Pipes.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.IO.UnmanagedMemoryStream.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Linq.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Linq.Expressions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Linq.Parallel.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Linq.Queryable.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Memory.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Http.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Http.Json.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.HttpListener.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Mail.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.NameResolution.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.NetworkInformation.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Ping.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Primitives.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Requests.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Security.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.ServicePoint.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.Sockets.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.WebClient.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.WebHeaderCollection.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.WebProxy.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.WebSockets.Client.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Net.WebSockets.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Numerics.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Numerics.Vectors.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ObjectModel.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.DispatchProxy.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.Emit.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.Emit.ILGeneration.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.Emit.Lightweight.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.Extensions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.Metadata.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.Primitives.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Reflection.TypeExtensions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Resources.Reader.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Resources.ResourceManager.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Resources.Writer.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Extensions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Handles.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.InteropServices.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Intrinsics.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Loader.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Numerics.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Serialization.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Serialization.Formatters.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Serialization.Json.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Serialization.Primitives.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Runtime.Serialization.Xml.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.AccessControl.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Claims.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.Algorithms.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.Cng.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.Csp.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.Encoding.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.OpenSsl.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.Primitives.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.X509Certificates.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Cryptography.Xml.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Principal.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.Principal.Windows.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Security.SecureString.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ServiceModel.Web.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ServiceProcess.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Text.Encoding.CodePages.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Text.Encoding.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Text.Encoding.Extensions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Text.Encodings.Web.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Text.Json.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Text.RegularExpressions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Channels.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Overlapped.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Tasks.Dataflow.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Tasks.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Tasks.Extensions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Tasks.Parallel.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Thread.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.ThreadPool.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Threading.Timer.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Transactions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Transactions.Local.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.ValueTuple.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Web.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Web.HttpUtility.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Windows.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.Linq.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.ReaderWriter.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.Serialization.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.XDocument.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.XmlDocument.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.XmlSerializer.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.XPath.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\System.Xml.XPath.XDocument.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\refs\WindowsBase.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.AssemblyInfo.cs
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.RazorAssemblyInfo.cache
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.RazorAssemblyInfo.cs
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\scopedcss\bundle\HospitalManagement_UI.styles.css
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\scopedcss\projectbundle\HospitalManagement_UI.bundle.scp.css
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.csproj.CopyComplete
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\refint\HospitalManagement_UI.dll
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.pdb
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\HospitalManagement_UI.genruntimeconfig.cache
+C:\Users\USER\Desktop\Download Files\HospitalManager\hospitalManagementProject\Hospital_Management_UI\HospitalManagement_UI\obj\Debug\net6.0\ref\HospitalManagement_UI.dll

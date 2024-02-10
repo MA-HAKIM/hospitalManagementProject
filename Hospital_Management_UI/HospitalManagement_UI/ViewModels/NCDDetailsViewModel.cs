@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Diagnostics.CodeAnalysis;
 
 namespace HospitalManagement_UI.ViewModels
@@ -6,11 +7,11 @@ namespace HospitalManagement_UI.ViewModels
     public class NCDDetailsViewModel:BaseModel
     {
         public int ID { get; set; }
-        public int PatientID { get; set; }
+        public int PatientInformationID { get; set; }
         public int NCDID { get; set; }
         public NCDDetailsViewModel NCDDetail { get; set; }
         public IList<NCDDetailsViewModel> NCDDetailList { get; set; }
-
+        public PatientViewModel PatientInformation { get; set; } // Navigation property
 
         public IList<NCDDetailsViewModel> GetNCDDetailList()
         {
@@ -34,6 +35,30 @@ namespace HospitalManagement_UI.ViewModels
                 throw;
             }
         }
+
+        public IList<NCDDetailsViewModel> GetNCDDetailListByPatientId(int id)
+        {
+            NCDDetailList = new List<NCDDetailsViewModel>();
+            try
+            {
+                HttpResponseMessage response = GetResponse(Api_Address, ApiController_NCDDetails + "/GetNCD_DetailsListByPatientId/" + id.ToString());
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var dataObjects = response.Content.ReadAsStringAsync().Result;
+                    NCDDetailList = JsonConvert.DeserializeObject<List<NCDDetailsViewModel>>(dataObjects);
+                }
+
+                response.EnsureSuccessStatusCode();
+                return NCDDetailList;
+            }
+            catch (Exception)
+            {
+                return NCDDetailList;
+                throw;
+            }
+        }
+
         public NCDDetailsViewModel GetSingleNCDDetail(int ncd_detail_id)
         {
             NCDDetail = new NCDDetailsViewModel();
@@ -65,33 +90,28 @@ namespace HospitalManagement_UI.ViewModels
                 throw;
             }
         }
-        public void AddSingleNCDDetail(string ncd_detail)
+        public async Task<int> AddSingleNCDDetail(NCDDetailsViewModel ncd_detail)
         {
-            NCDDetailsViewModel obj = new NCDDetailsViewModel();
-            //CustomerAddressVM customerAddress = new CustomerAddressVM();
-            Random randId = new Random();
-            //List<NCDDetailsViewModel> data = new JavaScriptSerializer().Deserialize<List<NCDDetailsViewModel>>(ncd_detail);
-
             try
             {
-                //foreach (var cust in data)
-                //{
-                //obj.CustomerName = cust.CustomerName;
-                //obj.CountryId = cust.CountryId;
-                //obj.CustomerId = randId.Next(1000, 99999);
-                //obj.FatherName = cust.FatherName;
-                //obj.MotherName = cust.MotherName;
-                //obj.MaritalStatus = cust.MaritalStatus;
-                //obj.CustomerPhoto = cust.CustomerPhoto;
-                Task<HttpResponseMessage> response1 = PostResponse(Api_Address, ApiController_NCDDetails, obj);
 
-                //foreach (var address in cust.Addresses)
-                //{
-                //customerAddress.CustomerAddress = address;
-                //customerAddress.CustomerId = obj.CustomerId;
-                //Task<HttpResponseMessage> response = PostResponse(Api_Address, ApiController_CustomerAddress, customerAddress);
-                //}
-                //}
+                if (ncd_detail != null)
+                {
+                    HttpResponseMessage response = await PostResponse(Api_Address, ApiController_NCDDetails, ncd_detail);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string responseBody = await response.Content.ReadAsStringAsync();
+                        NCDDetailsViewModel responseModel = JsonConvert.DeserializeObject<NCDDetailsViewModel>(responseBody);
+                        int id = responseModel.ID;
+                        return id;
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Error: {response.StatusCode}");
+                    }
+                }
+                return 0;
+
 
             }
             catch (Exception)
@@ -99,46 +119,27 @@ namespace HospitalManagement_UI.ViewModels
                 throw;
             }
         }
-        public void EditSingleNCDDetail(string ncd_detail)
+        public async Task<int> EditSingleNCDDetail(NCDDetailsViewModel ncd_details)
         {
-            NCDDetailsViewModel obj = new NCDDetailsViewModel();
-            //CustomerAddressVM customerAddress = new CustomerAddressVM();
-            Random randId = new Random();
-            //List<NCDDetailsViewModel> data = new JavaScriptSerializer().Deserialize<List<NCDDetailsViewModel>>(ncd_detail);
-
             try
             {
-                //foreach (var cust in data)
-                //{
-                //    obj.Id = cust.Id;
-                //    obj.CustomerName = cust.CustomerName;
-                //    obj.CountryId = cust.CountryId;
-                //    obj.CustomerId = cust.CustomerId;
-                //    obj.FatherName = cust.FatherName;
-                //    obj.MotherName = cust.MotherName;
-                //    obj.MaritalStatus = cust.MaritalStatus;
-                //    obj.CustomerPhoto = cust.CustomerPhoto;
+                if (ncd_details != null)
+                {
+                    HttpResponseMessage response = await PutResponse(Api_Address, ApiController_NCDDetails, ncd_details.ID.ToString(), ncd_details);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string responseBody = await response.Content.ReadAsStringAsync();
+                        NCDDetailsViewModel responseModel = JsonConvert.DeserializeObject<NCDDetailsViewModel>(responseBody);
+                        int id = responseModel.ID;
+                        return id;
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Error: {response.StatusCode}");
+                    }
+                }
+                return 0;
 
-                //    Task<HttpResponseMessage> response1 = PutResponse(Api_Address, ApiController_NCDDetails, cust.Id.ToString(), obj);
-
-                //    var customerAddressList = customerAddress.GetCustomerAddressList()
-                //        .Where(x => x.CustomerId == cust.CustomerId).ToList();
-
-                //    foreach (var d in customerAddressList)
-                //    {
-                //        customerAddress.DeleteSingleCustomerAddress(d.Id);
-                //    }
-
-                //    foreach (var address in cust.Addresses)
-                //    {
-
-                //        customerAddress.CustomerAddress = address;
-                //        customerAddress.CustomerId = obj.CustomerId;
-                //        Task<HttpResponseMessage> response = PutResponse(Api_Address, ApiController_CustomerAddress, cust.Id.ToString(), customerAddress);
-                //        Thread.Sleep(5);
-                //    }
-
-                //}
 
             }
             catch (Exception)
@@ -148,22 +149,9 @@ namespace HospitalManagement_UI.ViewModels
         }
         public void DeleteSingleNCDDetail(int id)
         {
-            //var address = new CustomerAddressVM();
             try
             {
-                //var custId = GetCustomerList().Where(x => x.CustomerId == id).FirstOrDefault();
-                //HttpResponseMessage response = DeleteResponse(Api_Address, ApiController_NCDDetails, custId.Id.ToString());
-
-                //foreach (var custAddress in address.GetCustomerAddressList().Where(x => x.CustomerId == id).ToList())
-                //{
-                //    HttpResponseMessage response2 = DeleteResponse(Api_Address, ApiController_CustomerAddress, custAddress.Id.ToString());
-                //}
-
-                //if (response.IsSuccessStatusCode)
-                //{
-
-                //}
-                //response.EnsureSuccessStatusCode();
+                HttpResponseMessage response = DeleteResponse(Api_Address, ApiController_NCDDetails, id.ToString());
             }
             catch (Exception)
             {

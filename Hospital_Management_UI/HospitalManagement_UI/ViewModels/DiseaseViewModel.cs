@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using Newtonsoft.Json;
 
 namespace HospitalManagement_UI.ViewModels
 {
@@ -8,7 +9,7 @@ namespace HospitalManagement_UI.ViewModels
         public int DiseaseID { get; set; }
         public string DiseaseName { get; set; }
         public IList<DiseaseViewModel> DiseaseList { get; set; }
-
+        public List<PatientViewModel> Patients { get; set; } // Navigation property
         public IList<DiseaseViewModel> GetDiseaseDataList()
         {
             DiseaseList = new List<DiseaseViewModel>();
@@ -18,8 +19,8 @@ namespace HospitalManagement_UI.ViewModels
 
                 if (response.IsSuccessStatusCode)
                 {
-                    var dataObjects = response.Content.ReadFromJsonAsync<IEnumerable<DiseaseViewModel>>().Result;
-                    DiseaseList = (IList<DiseaseViewModel>)dataObjects.ToList();
+                    var dataObjects = response.Content.ReadAsStringAsync().Result;
+                    DiseaseList = JsonConvert.DeserializeObject<List<DiseaseViewModel>>(dataObjects);
                 }
 
                 response.EnsureSuccessStatusCode();

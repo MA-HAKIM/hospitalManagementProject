@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations;
 
 namespace HospitalManagement_UI.ViewModels
 {
@@ -17,8 +18,8 @@ namespace HospitalManagement_UI.ViewModels
 
                 if (response.IsSuccessStatusCode)
                 {
-                    var dataObjects = response.Content.ReadFromJsonAsync<IEnumerable<AllergiesViewModel>>().Result;
-                    AllergiesList = (IList<AllergiesViewModel>)dataObjects.ToList();
+                    var dataObjects = response.Content.ReadAsStringAsync().Result;
+                    AllergiesList = JsonConvert.DeserializeObject<List<AllergiesViewModel>>(dataObjects);
                 }
 
                 response.EnsureSuccessStatusCode();

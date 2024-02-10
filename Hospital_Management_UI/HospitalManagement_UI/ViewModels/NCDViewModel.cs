@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations;
 
 namespace HospitalManagement_UI.ViewModels
 {
@@ -18,8 +19,8 @@ namespace HospitalManagement_UI.ViewModels
 
                 if (response.IsSuccessStatusCode)
                 {
-                    var dataObjects = response.Content.ReadFromJsonAsync<IEnumerable<NCDViewModel>>().Result;
-                    NCDList = (IList<NCDViewModel>)dataObjects.ToList();
+                    var dataObjects = response.Content.ReadAsStringAsync().Result;
+                    NCDList = JsonConvert.DeserializeObject<List<NCDViewModel>>(dataObjects);
                 }
 
                 response.EnsureSuccessStatusCode();

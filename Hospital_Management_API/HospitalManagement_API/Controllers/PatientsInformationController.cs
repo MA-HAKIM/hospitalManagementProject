@@ -7,6 +7,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using HospitalManagement_API.DataContext;
 using HospitalManagement_API.Model;
+using HospitalManagement_API.DTO;
+using AutoMapper;
+using Humanizer;
+using HospitalManagement_API.Interface;
 
 namespace HospitalManagement_API.Controllers
 {
@@ -14,111 +18,78 @@ namespace HospitalManagement_API.Controllers
     [ApiController]
     public class PatientsInformationController : ControllerBase
     {
-        private readonly HospitalDbContext _context;
+        private readonly IPatientRepository _patientRepo;
+        private readonly IMapper _mapper;
 
-        public PatientsInformationController(HospitalDbContext context)
+        public PatientsInformationController(IMapper mapper, IPatientRepository patientRepository)
         {
-            _context = context;
+            _patientRepo = patientRepository;
+            _mapper = mapper;
         }
 
         // GET: api/PatientsInformation
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Patients_Information>>> GetPatientInformation()
+        public async Task<ActionResult<IEnumerable<PatientDetailsModel>>> GetPatientInformation()
         {
-          if (_context.PatientInformation == null)
-          {
-              return NotFound();
-          }
-            return await _context.PatientInformation.ToListAsync();
+            var patientList = await _patientRepo.GetPatientsList();
+            return patientList;
         }
 
         // GET: api/PatientsInformation/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Patients_Information>> GetPatients_Information(int id)
+        public async Task<ActionResult<PatientDetailsModel>> GetPatients_Information(int id)
         {
-          if (_context.PatientInformation == null)
-          {
-              return NotFound();
-          }
-            var patients_Information = await _context.PatientInformation.FindAsync(id);
-
-            if (patients_Information == null)
+            var patientInfo = await _patientRepo.GetPatient(id);
+            if (patientInfo == null)
             {
                 return NotFound();
             }
-
-            return patients_Information;
+            return patientInfo;
         }
 
         // PUT: api/PatientsInformation/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutPatients_Information(int id, Patients_Information patients_Information)
+        public async Task<IActionResult> PutPatients_Information(int id, PatientDTO patients_Information)
         {
-            if (id != patients_Information.PatientID)
+            var patient = _mapper.Map<PatientInformation>(patients_Information);
+            if (id != patient.PatientInformationID)
             {
                 return BadRequest();
             }
-
-            _context.Entry(patients_Information).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!Patients_InformationExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
+            await _patientRepo.Update(id, patient);
+            
+            return CreatedAtAction("GetPatients_Information", new { id = patient.PatientInformationID }, patient);
         }
 
         // POST: api/PatientsInformation
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Patients_Information>> PostPatients_Information(Patients_Information patients_Information)
+        public async Task<ActionResult<PatientInformation>> PostPatients_Information(PatientDTO patients_Information)
         {
-          if (_context.PatientInformation == null)
-          {
-              return Problem("Entity set 'HospitalDbContext.PatientInformation'  is null.");
-          }
-            _context.PatientInformation.Add(patients_Information);
-            await _context.SaveChangesAsync();
+            var patient = _mapper.Map<PatientInformation>(patients_Information);
+            if (patient == null)
+            {
+                return Problem("Entity set 'HospitalDbContext.PatientInformation'  is null.");
+            }
 
-            return CreatedAtAction("GetPatients_Information", new { id = patients_Information.PatientID }, patients_Information);
+            await _patientRepo.Save(patient);
+
+            return CreatedAtAction("GetPatients_Information", new { id = patient.PatientInformationID }, patient);
         }
 
         // DELETE: api/PatientsInformation/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePatients_Information(int id)
         {
-            if (_context.PatientInformation == null)
-            {
-                return NotFound();
-            }
-            var patients_Information = await _context.PatientInformation.FindAsync(id);
+            var patients_Information = await _patientRepo.GetPatient(id);
             if (patients_Information == null)
             {
                 return NotFound();
             }
-
-            _context.PatientInformation.Remove(patients_Information);
-            await _context.SaveChangesAsync();
-
+            await _patientRepo.Delete(id);
             return NoContent();
         }
 
-        private bool Patients_InformationExists(int id)
-        {
-            return (_context.PatientInformation?.Any(e => e.PatientID == id)).GetValueOrDefault();
-        }
     }
 }

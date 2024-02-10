@@ -10,5 +10,6 @@ namespace HospitalManagement_API.Model
         public int NCDID { get; set; }
         [StringLength(100)]
         public string NCDName { get; set; }
+
     }
 }

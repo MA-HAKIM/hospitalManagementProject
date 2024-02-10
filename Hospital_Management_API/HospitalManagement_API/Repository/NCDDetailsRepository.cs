@@ -67,5 +67,15 @@ namespace HospitalManagement_API.Repository
         {
             return _context.NCDDetails.Any(e => e.ID == id);
         }
+
+        public async Task<List<NCD_Details>> GetNCDDetailListByPatientId(int id)
+        {
+            var ncds = await _context.NCDDetails.Where(x=>x.PatientInformationID == id).ToListAsync();
+            if(ncds != null)
+            {
+                return ncds;
+            }
+            return ncds;
+        }
     }
 }

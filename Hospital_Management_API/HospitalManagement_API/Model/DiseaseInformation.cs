@@ -11,8 +11,6 @@ namespace HospitalManagement_API.Model
         [StringLength(100)]
         public string DiseaseName { get; set; }
 
-        //Navigation Properties
-        //[NotMapped]
-        //public Patients_Information PatientsInformation { get; set; }
+        public List<PatientInformation> Patients { get; set; } // Navigation property
     }
 }

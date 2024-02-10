@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HospitalManagement_API.Repository
 {
-    public class AllergiesDetailsRepository : IAllergiesRepository
+    public class AllergiesDetailsRepository : IAllergieDetailsRepository
     {
         private readonly HospitalDbContext _context;
 
@@ -66,6 +66,16 @@ namespace HospitalManagement_API.Repository
         private bool AllergiesDetialsExists(int id)
         {
             return _context.AllergiesDetails.Any(e => e.ID == id);
+        }
+
+        public async Task<List<Allergies_Details>> GetAllergiesDetailListByPatientId(int id)
+        {
+            var allergieDetailsList = await _context.AllergiesDetails.Where(x=>x.PatientInformationID == id).ToListAsync();
+            if(allergieDetailsList != null)
+            {
+                return allergieDetailsList;
+            }
+            return allergieDetailsList;
         }
     }
 }

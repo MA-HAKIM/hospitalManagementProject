@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using HospitalManagement_API.DataContext;
 using HospitalManagement_API.Model;
+using HospitalManagement_API.DTO;
+using AutoMapper;
+using HospitalManagement_API.Interface;
 
 namespace HospitalManagement_API.Controllers
 {
@@ -14,34 +17,40 @@ namespace HospitalManagement_API.Controllers
     [ApiController]
     public class NCDDetailController : ControllerBase
     {
-        private readonly HospitalDbContext _context;
+        private readonly INCDDetialsRepository _ncdDetialsRepository;
+        private readonly IMapper _mapper;
 
-        public NCDDetailController(HospitalDbContext context)
+        public NCDDetailController(INCDDetialsRepository nCDDetialsRepository, IMapper mapper)
         {
-            _context = context;
+            _ncdDetialsRepository = nCDDetialsRepository;
+            _mapper = mapper;
         }
 
         // GET: api/NCDDetail
         [HttpGet]
         public async Task<ActionResult<IEnumerable<NCD_Details>>> GetNCDDetails()
         {
-          if (_context.NCDDetails == null)
-          {
-              return NotFound();
-          }
-            return await _context.NCDDetails.ToListAsync();
+            var ncdDetailsList = await _ncdDetialsRepository.GetNCDDetailList();
+            return ncdDetailsList;
         }
 
         // GET: api/NCDDetail/5
         [HttpGet("{id}")]
         public async Task<ActionResult<NCD_Details>> GetNCD_Details(int id)
         {
-          if (_context.NCDDetails == null)
-          {
-              return NotFound();
-          }
-            var nCD_Details = await _context.NCDDetails.FindAsync(id);
+            var nCD_Details = await _ncdDetialsRepository.GetNDCDetail(id);
+            if (nCD_Details == null)
+            {
+                return NotFound();
+            }
+            
+            return nCD_Details;
+        }
 
+        [HttpGet("GetNCD_DetailsListByPatientId/{id}")]
+        public async Task<ActionResult<List<NCD_Details>>> GetNCD_DetailsListByPatientId(int id)
+        {
+            var nCD_Details = await _ncdDetialsRepository.GetNCDDetailListByPatientId(id);
             if (nCD_Details == null)
             {
                 return NotFound();
@@ -60,23 +69,7 @@ namespace HospitalManagement_API.Controllers
                 return BadRequest();
             }
 
-            _context.Entry(nCD_Details).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!NCD_DetailsExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            await _ncdDetialsRepository.Update(id, nCD_Details);
 
             return NoContent();
         }
@@ -84,41 +77,29 @@ namespace HospitalManagement_API.Controllers
         // POST: api/NCDDetail
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<NCD_Details>> PostNCD_Details(NCD_Details nCD_Details)
+        public async Task<ActionResult<NCD_Details>> PostNCD_Details(NCDDetailsDTO nCD_Details)
         {
-          if (_context.NCDDetails == null)
-          {
-              return Problem("Entity set 'HospitalDbContext.NCDDetails'  is null.");
-          }
-            _context.NCDDetails.Add(nCD_Details);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetNCD_Details", new { id = nCD_Details.ID }, nCD_Details);
+            var ncdDetails = _mapper.Map<NCD_Details>(nCD_Details);
+            if (ncdDetails == null)
+            {
+                return Problem("Entity set 'HospitalDbContext.NCDDetails'  is null.");
+            }
+            await _ncdDetialsRepository.Save(ncdDetails);
+            return CreatedAtAction("GetNCD_Details", new { id = ncdDetails.ID }, ncdDetails);
         }
 
         // DELETE: api/NCDDetail/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteNCD_Details(int id)
         {
-            if (_context.NCDDetails == null)
-            {
-                return NotFound();
-            }
-            var nCD_Details = await _context.NCDDetails.FindAsync(id);
+            var nCD_Details = await _ncdDetialsRepository.GetNDCDetail(id);
             if (nCD_Details == null)
             {
                 return NotFound();
             }
-
-            _context.NCDDetails.Remove(nCD_Details);
-            await _context.SaveChangesAsync();
-
+            await _ncdDetialsRepository.Delete(id);
             return NoContent();
         }
 
-        private bool NCD_DetailsExists(int id)
-        {
-            return (_context.NCDDetails?.Any(e => e.ID == id)).GetValueOrDefault();
-        }
     }
 }

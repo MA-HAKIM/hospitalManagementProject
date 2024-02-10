@@ -10,12 +10,11 @@ namespace HospitalManagement_API.Model
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
         [ForeignKey("PatientInformation")]
-        public int PatientID { get; set; }
+        public int PatientInformationID { get; set; }
         [AllowNull]
         public int AllergiesID { get; set; }
 
-        //Navigation Properties
-
-        public Patients_Information PatientsInformation { get; set; }
+        public PatientInformation PatientInformation { get; set; } // Navigation property
+        public Allergies Allergies { get; set; }
     }
 }

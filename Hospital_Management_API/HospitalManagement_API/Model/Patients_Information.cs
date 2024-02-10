@@ -5,14 +5,14 @@ namespace HospitalManagement_API.Model
 {
     public enum Epilepsy
     {
-        Yes = 1,
-        No = 0
+        Yes=1,
+        No=0
     }
-    public class Patients_Information
+    public class PatientInformation
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int PatientID { get; set; }
+        public int PatientInformationID { get; set; }
         [StringLength(100)]
         public string PatientName { get; set; }
         public Epilepsy Epilepsy { get; set; }    
@@ -22,12 +22,9 @@ namespace HospitalManagement_API.Model
 
         [ForeignKey("DiseaseInformation")]
         public int DiseaseId { get; set; }
-        
-        //Navigation Properties
-
-        public DiseaseInformation DiseaseInformation { get; set; }
-        public ICollection<Allergies_Details> AllergiesDetails { get; set; }
-        public ICollection<NCD_Details> NCDDetails { get; set; }
+        public DiseaseInformation DiseaseInformation { get; set; } // Navigation property
+        public List<NCD_Details> NCD_Details { get; set; } // Navigation property
+        public List<Allergies_Details> Allergies_Details { get; set; } // Navigation property
 
     }
 }

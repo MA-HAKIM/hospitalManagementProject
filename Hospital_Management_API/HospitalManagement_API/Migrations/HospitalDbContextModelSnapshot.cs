@@ -50,15 +50,12 @@ namespace HospitalManagement_API.Migrations
                     b.Property<int>("AllergiesID")
                         .HasColumnType("int");
 
-                    b.Property<int>("PatientID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PatientsInformationPatientID")
+                    b.Property<int>("PatientInformationID")
                         .HasColumnType("int");
 
                     b.HasKey("ID");
 
-                    b.HasIndex("PatientsInformationPatientID");
+                    b.HasIndex("PatientInformationID");
 
                     b.ToTable("AllergiesDetails");
                 });
@@ -110,26 +107,23 @@ namespace HospitalManagement_API.Migrations
                     b.Property<int>("NCDID")
                         .HasColumnType("int");
 
-                    b.Property<int>("PatientID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PatientsInformationPatientID")
+                    b.Property<int>("PatientInformationID")
                         .HasColumnType("int");
 
                     b.HasKey("ID");
 
-                    b.HasIndex("PatientsInformationPatientID");
+                    b.HasIndex("PatientInformationID");
 
                     b.ToTable("NCDDetails");
                 });
 
-            modelBuilder.Entity("HospitalManagement_API.Model.Patients_Information", b =>
+            modelBuilder.Entity("HospitalManagement_API.Model.PatientInformation", b =>
                 {
-                    b.Property<int>("PatientID")
+                    b.Property<int>("PatientInformationID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PatientID"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PatientInformationID"), 1L, 1);
 
                     b.Property<string>("Address")
                         .HasColumnType("nvarchar(max)");
@@ -151,41 +145,40 @@ namespace HospitalManagement_API.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.HasKey("PatientID");
+                    b.HasKey("PatientInformationID");
 
-                    b.HasIndex("DiseaseId")
-                        .IsUnique();
+                    b.HasIndex("DiseaseId");
 
                     b.ToTable("PatientInformation");
                 });
 
             modelBuilder.Entity("HospitalManagement_API.Model.Allergies_Details", b =>
                 {
-                    b.HasOne("HospitalManagement_API.Model.Patients_Information", "PatientsInformation")
-                        .WithMany("AllergiesDetails")
-                        .HasForeignKey("PatientsInformationPatientID")
+                    b.HasOne("HospitalManagement_API.Model.PatientInformation", "PatientInformation")
+                        .WithMany("Allergies_Details")
+                        .HasForeignKey("PatientInformationID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("PatientsInformation");
+                    b.Navigation("PatientInformation");
                 });
 
             modelBuilder.Entity("HospitalManagement_API.Model.NCD_Details", b =>
                 {
-                    b.HasOne("HospitalManagement_API.Model.Patients_Information", "PatientsInformation")
-                        .WithMany("NCDDetails")
-                        .HasForeignKey("PatientsInformationPatientID")
+                    b.HasOne("HospitalManagement_API.Model.PatientInformation", "PatientInformation")
+                        .WithMany("NCD_Details")
+                        .HasForeignKey("PatientInformationID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("PatientsInformation");
+                    b.Navigation("PatientInformation");
                 });
 
-            modelBuilder.Entity("HospitalManagement_API.Model.Patients_Information", b =>
+            modelBuilder.Entity("HospitalManagement_API.Model.PatientInformation", b =>
                 {
                     b.HasOne("HospitalManagement_API.Model.DiseaseInformation", "DiseaseInformation")
-                        .WithOne("PatientsInformation")
-                        .HasForeignKey("HospitalManagement_API.Model.Patients_Information", "DiseaseId")
+                        .WithMany("Patients")
+                        .HasForeignKey("DiseaseId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -194,15 +187,14 @@ namespace HospitalManagement_API.Migrations
 
             modelBuilder.Entity("HospitalManagement_API.Model.DiseaseInformation", b =>
                 {
-                    b.Navigation("PatientsInformation")
-                        .IsRequired();
+                    b.Navigation("Patients");
                 });
 
-            modelBuilder.Entity("HospitalManagement_API.Model.Patients_Information", b =>
+            modelBuilder.Entity("HospitalManagement_API.Model.PatientInformation", b =>
                 {
-                    b.Navigation("AllergiesDetails");
+                    b.Navigation("Allergies_Details");
 
-                    b.Navigation("NCDDetails");
+                    b.Navigation("NCD_Details");
                 });
 #pragma warning restore 612, 618
         }

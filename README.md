@@ -1,6 +1,6 @@
-# hospitalManagementProject
+# Hospital Management
 
-## At first run the program then need to click Patient in Navbar,
+## At first run the program then need to click Patient in Navbar.
 ![image](https://github.com/MA-HAKIM/hospitalManagementProject/assets/91613386/e404bb76-d055-4da9-b9f0-5fc8476be2f0)
 
 ## Here you can see Patients List.
@@ -41,3 +41,5 @@
 
 ## Other wise to delete data need to click on delete button
 ![image](https://github.com/MA-HAKIM/hospitalManagementProject/assets/91613386/94244966-19c1-47f1-a323-83f18cba13d0)
+
+## This data will be delete permanently.

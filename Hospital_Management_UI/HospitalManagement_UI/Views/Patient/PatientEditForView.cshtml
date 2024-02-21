@@ -1,0 +1,204 @@
+﻿
+<div style="border: 1px solid blue; padding: 20px; margin:20px 0;">
+    <form>
+        <input value="@ViewBag.PatientId" type="hidden" id="PatientID" />
+        <h4>Patient Information</h4>
+        <div class="row form-group mb-2">
+            <label class="col-form-label col-md-2">Patient Name <span style="color:red;">*</span></label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" placeholder="Enter Patient Name" required="" id="PatientName" />
+            </div>
+        </div>
+        <div class="row form-group mb-2">
+            <label class="col-form-label col-md-2">Disease <span style="color:red;">*</span></label>
+            <div class="col-md-10">
+                <select class="form-control form-select" id="DiseaseName" required>
+                    <option selected value=""></option>
+                    @foreach (var d in ViewBag.DiseaseList)
+                    {
+                        <option value="@d.DiseaseID">@d.DiseaseName</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="row form-group mb-2">
+            <label class="col-form-label col-md-2">Epilepsy <span style="color:red;">*</span></label>
+            <div class="col-md-10">
+                <select id="EpilepsiValue" class="form-control form-select">
+                    <option selected value="1">Yes</option>
+                    <option value="0">No</option>
+                </select>
+            </div>
+        </div>
+        <div class="row form-group mb-2">
+            <div class="col-md-2">Other NCDs</div>
+            <div class="col-md-4">
+                <div>
+                    <select size="12" class="form-control" id="NCDDetailsList">
+                        @foreach (var d in ViewBag.NCDList)
+                        {
+                            <option value="@d.NCDID">@d.NCDName</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-2 btn" style="margin-top: 100px;">
+                <button type="button" class="mb-2 btn btn-outline-dark" style="width:100px;" id="NCDAdd"> Add > </button>
+                <button type="button" class=" btn btn-outline-dark" style="width:100px;" id="NCDRemove"> < Remove </button>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <select size="12" class="form-control" id="SelectedNCDDetail">
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row form-group ">
+            <div class="col-md-2">Allergies <span style="color:red;">*</span></div>
+            <div class="col-md-4">
+                <div>
+                    <select size="12" class="form-control" id="AllergiesDetailsList">
+                        @foreach (var d in ViewBag.AllergiesList)
+                        {
+                            <option value="@d.AllergiesID">@d.AllergiesName</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-2 btn" style="margin-top: 100px;">
+                <button type="button" class="mb-2 btn btn-outline-dark" style="width:100px;" id="AllergiAdd"> Add > </button>
+                <button type="button" class=" btn btn-outline-dark" style="width:100px;" id="AllergiRemove"> < Remove </button>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <select size="12" class="form-control" id="SelectedAllergiesDetail" required>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row offset-6">
+            <button type="button" id="SaveData" class="align-content-center btn" style="width:100px; margin:30px 0 30px 60px; color:white; background-color:deepskyblue; font-size:1.5rem; font-weight:900;" type="button">Save</button>
+        </div>
+    </form>
+</div>
+
+<script src="~/lib/jquery/jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#NCDAdd").on("click", function () {
+            $("#NCDDetailsList option:selected").appendTo("#SelectedNCDDetail");
+        });
+
+        $("#NCDRemove").on("click", function () {
+            $("#SelectedNCDDetail option:selected").appendTo("#NCDDetailsList");
+        });
+
+        $("#AllergiAdd").on("click", function () {
+            $("#AllergiesDetailsList option:selected").appendTo("#SelectedAllergiesDetail");
+        });
+
+        $("#AllergiRemove").on("click", function () {
+            $("#SelectedAllergiesDetail option:selected").appendTo("#AllergiesDetailsList");
+        });
+
+        var patientId = $("#PatientID").val();
+        $.ajax({
+            type: 'GET',
+            url: '@Url.Action("PatientEdit", "Patient")?id=' + patientId,
+            success: function (patient) {
+                $("#PatientName").val(patient.patientName);
+                $("#EpilepsiValue").val(patient.epilepsy);
+                $("#DiseaseName").val(patient.diseaseID);
+
+                var selectedNcdList = patient.ncDs;
+                var selectedAllergieList = patient.allergies;
+
+                for (let ncd in selectedNcdList) {
+                    var n = selectedNcdList[ncd];
+                    $("#SelectedNCDDetail").append(
+                        `<option value="${n.ncdid}">${n.ncdName}</option>`
+                    );
+                };
+
+                for (let alg in selectedAllergieList) {
+                    var a = selectedAllergieList[alg];
+                    $("#SelectedAllergiesDetail").append(
+                        `<option value="${a.allergiesID}">${a.allergiesName}</option>`
+                    );
+                };
+
+                var itemsToRemove = $('#SelectedNCDDetail option');
+
+                $('#NCDDetailsList option').each(function () {
+                    var currentItem = $(this).text();
+                    if (itemsToRemove.filter(':contains("' + currentItem + '")').length > 0) {
+                        $(this).remove();
+                    }
+                });
+
+                var itemsToRemove = $('#SelectedAllergiesDetail option');
+
+                $('#AllergiesDetailsList option').each(function () {
+                    var currentItem = $(this).text();
+                    if (itemsToRemove.filter(':contains("' + currentItem + '")').length > 0) {
+                        $(this).remove();
+                    }
+                });
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });
+
+        $("#SaveData").click(function () {
+
+            var allergies = [];
+            var ncds = [];
+            var patientName = $("#PatientName").val();
+            var diseaseInfo = $("#DiseaseName option:selected").val();
+            var epilepsy = $("#EpilepsiValue option:selected").val();
+
+            $("#SelectedAllergiesDetail option").each(function() {
+                var allergy = $(this).val();
+                allergies.push(allergy);
+            });
+
+            $("#SelectedNCDDetail option").each(function () {
+                var ncd = $(this).val();
+                ncds.push(ncd);
+            });
+            var PatientSaveViewModel = {
+                PatientInformationID: patientId,
+                PatientName:patientName,
+                DiseaseID:diseaseInfo,
+                Epilepsy:epilepsy,
+                NCDList:ncds,
+                AllergiesList:allergies
+            };
+
+            console.log(PatientSaveViewModel);
+
+            if(patientName == "") {
+                alert("Please enter name");
+            }
+            else if (diseaseInfo == "") {
+                alert("Please select disease");
+            }
+            else {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("SaveAndUpdate", "Patient")',
+                    data: { patientSaveViewModel: PatientSaveViewModel },
+                    success: function (r) {
+                        window.location.href = '@Url.Action("PatientList","Patient")';
+                    },
+                    error: function (err) {
+                        console.log(err);
+                    }
+                });
+            }
+
+        })
+    });
+</script>

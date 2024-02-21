@@ -1,0 +1,57 @@
+﻿@using HospitalManagement_UI.ViewModels;
+@model PatientDetailsModel
+
+<div class="mt-4">
+    <h3>@Model.PatientName Information</h3>
+    <div class="row mb-1">
+        <div class="col-md-2 fw-bold">Patient Name</div>
+        <div class="col-md-10">@Model.PatientName</div>
+    </div>
+    <div class="row mb-1">
+        <div class="col-md-2 fw-bold">Disease</div>
+        <div class="col-md-10">@Model.DiseaseName</div>
+    </div>
+    <div class="row mb-1">
+        <div class="col-md-2 fw-bold">Has Epilepsy?</div>
+        <div class="col-md-10">
+            @if (@Model.Epilepsy == 1)
+            {
+                <span>Yes</span>
+            }
+            else
+            {
+                <span>No</span>
+            }
+        </div>
+    </div>
+    <div class="row mb-1">
+        <div class="col-md-2 fw-bold">NCDs</div>
+        <div class="col-md-10">
+            @if (Model.NCDs.Count > 0)
+            {
+                <span>@string.Join(", ", Model.NCDs.Select(x => x.NCDName))</span>
+
+            }
+            else
+            {
+                <span>N/A</span>
+            }
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-md-2 fw-bold">Allergies</div>
+        <div class="col-md-10">
+            @if (Model.Allergies.Count > 0)
+            {
+                <span>@string.Join(", ", Model.Allergies.Select(x => x.AllergiesName))</span>
+            }
+            else
+            {
+                <span>N/A</span>
+            }
+        </div>
+    </div>
+    <a class="btn btn-outline-secondary" asp-action="PatientList"> <svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 3px;" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+    </svg> Back To Home</a>
+</div>

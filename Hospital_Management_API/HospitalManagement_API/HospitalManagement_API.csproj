@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20240207190445_CreateDatabase.cs" />
+    <Compile Remove="Migrations\20240207190445_CreateDatabase.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="libman.json" />
   </ItemGroup>
 

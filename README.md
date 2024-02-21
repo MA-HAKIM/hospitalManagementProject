@@ -1,5 +1,15 @@
 # Hospital Management
 
+## At first open project in your visual studio
+
+## In visual studio > tools > NuGet Package Manager > package manager console
+
+## Write command - update-database
+
+### Then run script file (DBScripts) for insert data. You get some error in scripts file that is try to create table. Which is already created by update-database command. Just ignore all error in this DBScripts file.
+
+## Now run API first, secondly run UI project and follow below instructions.
+
 ## At first run the program then need to click Patient in Navbar.
 ![image](https://github.com/MA-HAKIM/hospitalManagementProject/assets/91613386/e404bb76-d055-4da9-b9f0-5fc8476be2f0)
 
